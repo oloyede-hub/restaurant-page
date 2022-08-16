@@ -65,6 +65,7 @@ a > img {
 
 .container {
     padding-block-start: 170px;
+    display: none;
 }
 
 .home {

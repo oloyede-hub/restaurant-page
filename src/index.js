@@ -14,6 +14,8 @@ const content = document.querySelector('.content')
 content.appendChild(generateHome(Chef));
 content.appendChild(generateMenu())
 content.appendChild(genrateContact(Chef))
+const tabcontent = document.getElementsByClassName("container");
+tabcontent[0].style.display = "block"
 
 
 // Change Tab 
